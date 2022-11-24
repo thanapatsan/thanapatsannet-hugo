@@ -1,0 +1,22 @@
+baseURL: https://thanapatsan.net/
+languageCode: th-th
+title: thanapatsan.net
+theme: "PaperMod"
+params:
+  mainSections:
+  - posts
+  - notes
+  # homeInfoParams:
+  #   Title: thanapatsan.net
+  #   Content: hello
+
+menu:
+  main:
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 10
+    - identifier: archive
+      name: archive
+      url: /archive/
+      weight: 15
